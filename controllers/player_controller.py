@@ -1,8 +1,10 @@
-from player_view import PlayerView
+from views.player_view import PlayerView
+from models.player import Player
+
 
 class PlayerController:
-    def create_player(self):
-        self.view =Player.view()
+    def __init__(self):
+        self.view = PlayerView()
         self.players = []
     
     def create-player(self):
@@ -14,7 +16,7 @@ class PlayerController:
 
         #Ajouter aux données
         self.players.append(player)
-        
+
         return player
 
         
