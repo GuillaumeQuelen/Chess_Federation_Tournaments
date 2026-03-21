@@ -7,7 +7,7 @@ class PlayerController:
         self.view = PlayerView()
         self.players = []
     
-    def create-player(self):
+    def create_player(self):
         #Récupérer l'information
         first_name, last_name, birth_date, national_id = self.view.get_info()
 
