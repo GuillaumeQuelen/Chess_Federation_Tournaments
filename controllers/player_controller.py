@@ -13,7 +13,7 @@ class PlayerController:
         first_name, last_name, birth_date, national_id = self.view.get_info()
         player = Player(last_name, first_name, birth_date, national_id)
         self.players.append(player)
-        self.save_players()    # ← manquait cette ligne !
+        self.save_players()
         return player
 
     def save_players(self):
