@@ -1,11 +1,25 @@
 class Tournament:
-    def __init__(self, name, starting_date, ending_date, current_round, number_of_rounds, players_list, description, location, rounds):
+    def __init__(self, name, starting_date, ending_date, 
+                 location, description, number_of_rounds=4):
         self.name = name
         self.starting_date = starting_date
         self.ending_date = ending_date
-        self.current_round = 0
-        self.number_of_rounds = 4
-        self.players_list = players_list
-        self.description = description
         self.location = location
+        self.description = description
+        self.number_of_rounds = number_of_rounds
+        self.current_round = 0
+        self.players_list = []
         self.rounds = []
+
+    def to_dict(self):
+        return {
+            "name": self.name,
+            "starting_date": self.starting_date,
+            "ending_date": self.ending_date,
+            "location": self.location,
+            "description": self.description,
+            "number_of_rounds": self.number_of_rounds,
+            "current_round": self.current_round,
+            "players_list": self.players_list,
+            "rounds": [r.to_dict() if hasattr(r, 'to_dict') else r for r in self.rounds]
+        }

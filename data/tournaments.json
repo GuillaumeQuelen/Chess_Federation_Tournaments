@@ -1,0 +1,277 @@
+[
+    {
+        "name": "test",
+        "starting_date": "01/01/2027",
+        "ending_date": "15/01/2027",
+        "location": "defefe",
+        "description": "feef",
+        "number_of_rounds": 4,
+        "current_round": 2,
+        "players_list": [
+            {
+                "last_name": "Dupont",
+                "first_name": "Jean",
+                "birth_date": "15/03/1990",
+                "national_id": "AB12345",
+                "score": 1
+            },
+            {
+                "last_name": "Martin",
+                "first_name": "Sophie",
+                "birth_date": "22/07/1985",
+                "national_id": "CD23456",
+                "score": 0
+            },
+            {
+                "last_name": "Bernard",
+                "first_name": "Lucas",
+                "birth_date": "08/11/1995",
+                "national_id": "EF34567",
+                "score": 0
+            },
+            {
+                "last_name": "Petit",
+                "first_name": "Emma",
+                "birth_date": "30/01/2000",
+                "national_id": "GH45678",
+                "score": 1
+            },
+            {
+                "last_name": "Leroy",
+                "first_name": "Thomas",
+                "birth_date": "14/06/1988",
+                "national_id": "IJ56789",
+                "score": 1
+            },
+            {
+                "last_name": "Moreau",
+                "first_name": "Camille",
+                "birth_date": "03/09/1992",
+                "national_id": "KL67890",
+                "score": 0
+            },
+            {
+                "last_name": "Simon",
+                "first_name": "Hugo",
+                "birth_date": "19/12/1998",
+                "national_id": "MN78901",
+                "score": 0
+            },
+            {
+                "last_name": "Laurent",
+                "first_name": "L\u00e9a",
+                "birth_date": "25/04/1993",
+                "national_id": "OP89012",
+                "score": 1
+            }
+        ],
+        "rounds": [
+            {
+                "name": "Round 1",
+                "matches": [
+                    {
+                        "players": [
+                            [
+                                {
+                                    "last_name": "Dupont",
+                                    "first_name": "Jean",
+                                    "birth_date": "15/03/1990",
+                                    "national_id": "AB12345",
+                                    "score": 0
+                                },
+                                0
+                            ],
+                            [
+                                {
+                                    "last_name": "Martin",
+                                    "first_name": "Sophie",
+                                    "birth_date": "22/07/1985",
+                                    "national_id": "CD23456",
+                                    "score": 0
+                                },
+                                0
+                            ]
+                        ]
+                    },
+                    {
+                        "players": [
+                            [
+                                {
+                                    "last_name": "Bernard",
+                                    "first_name": "Lucas",
+                                    "birth_date": "08/11/1995",
+                                    "national_id": "EF34567",
+                                    "score": 0
+                                },
+                                0
+                            ],
+                            [
+                                {
+                                    "last_name": "Petit",
+                                    "first_name": "Emma",
+                                    "birth_date": "30/01/2000",
+                                    "national_id": "GH45678",
+                                    "score": 0
+                                },
+                                0
+                            ]
+                        ]
+                    },
+                    {
+                        "players": [
+                            [
+                                {
+                                    "last_name": "Leroy",
+                                    "first_name": "Thomas",
+                                    "birth_date": "14/06/1988",
+                                    "national_id": "IJ56789",
+                                    "score": 0
+                                },
+                                0
+                            ],
+                            [
+                                {
+                                    "last_name": "Moreau",
+                                    "first_name": "Camille",
+                                    "birth_date": "03/09/1992",
+                                    "national_id": "KL67890",
+                                    "score": 0
+                                },
+                                0
+                            ]
+                        ]
+                    },
+                    {
+                        "players": [
+                            [
+                                {
+                                    "last_name": "Simon",
+                                    "first_name": "Hugo",
+                                    "birth_date": "19/12/1998",
+                                    "national_id": "MN78901",
+                                    "score": 0
+                                },
+                                0
+                            ],
+                            [
+                                {
+                                    "last_name": "Laurent",
+                                    "first_name": "L\u00e9a",
+                                    "birth_date": "25/04/1993",
+                                    "national_id": "OP89012",
+                                    "score": 0
+                                },
+                                0
+                            ]
+                        ]
+                    }
+                ],
+                "start_datetime": null,
+                "end_datetime": null
+            },
+            {
+                "name": "Round 2",
+                "matches": [
+                    {
+                        "players": [
+                            [
+                                {
+                                    "last_name": "Dupont",
+                                    "first_name": "Jean",
+                                    "birth_date": "15/03/1990",
+                                    "national_id": "AB12345",
+                                    "score": 1
+                                },
+                                1
+                            ],
+                            [
+                                {
+                                    "last_name": "Martin",
+                                    "first_name": "Sophie",
+                                    "birth_date": "22/07/1985",
+                                    "national_id": "CD23456",
+                                    "score": 0
+                                },
+                                0
+                            ]
+                        ]
+                    },
+                    {
+                        "players": [
+                            [
+                                {
+                                    "last_name": "Bernard",
+                                    "first_name": "Lucas",
+                                    "birth_date": "08/11/1995",
+                                    "national_id": "EF34567",
+                                    "score": 0
+                                },
+                                0
+                            ],
+                            [
+                                {
+                                    "last_name": "Petit",
+                                    "first_name": "Emma",
+                                    "birth_date": "30/01/2000",
+                                    "national_id": "GH45678",
+                                    "score": 1
+                                },
+                                1
+                            ]
+                        ]
+                    },
+                    {
+                        "players": [
+                            [
+                                {
+                                    "last_name": "Leroy",
+                                    "first_name": "Thomas",
+                                    "birth_date": "14/06/1988",
+                                    "national_id": "IJ56789",
+                                    "score": 1
+                                },
+                                1
+                            ],
+                            [
+                                {
+                                    "last_name": "Moreau",
+                                    "first_name": "Camille",
+                                    "birth_date": "03/09/1992",
+                                    "national_id": "KL67890",
+                                    "score": 0
+                                },
+                                0
+                            ]
+                        ]
+                    },
+                    {
+                        "players": [
+                            [
+                                {
+                                    "last_name": "Simon",
+                                    "first_name": "Hugo",
+                                    "birth_date": "19/12/1998",
+                                    "national_id": "MN78901",
+                                    "score": 0
+                                },
+                                0
+                            ],
+                            [
+                                {
+                                    "last_name": "Laurent",
+                                    "first_name": "L\u00e9a",
+                                    "birth_date": "25/04/1993",
+                                    "national_id": "OP89012",
+                                    "score": 1
+                                },
+                                1
+                            ]
+                        ]
+                    }
+                ],
+                "start_datetime": null,
+                "end_datetime": null
+            }
+        ]
+    }
+]

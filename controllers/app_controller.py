@@ -16,7 +16,7 @@ class AppController:
             if choix == "1":
                 self.player_controller.create_player()
             elif choix == "2":
-                self.tournament_controller.create_tournament()
+                self.tournament_controller.run()
             elif choix == "4":
                 print("Au revoir !")
                 break
