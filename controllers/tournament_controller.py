@@ -114,7 +114,7 @@ class TournamentController:
                 new_round = self.start_round(self.current_tournament)
                 print(f"\n✅ {new_round.name} démarré avec {len(new_round.matches)} matchs !")
                 for match in new_round.matches:
-                print(f"  ⚔️  {match.players[0][0]['first_name']} vs {match.players[1][0]['first_name']}")
+                    print(f"  ⚔️  {match.players[0][0]['first_name']} vs {match.players[1][0]['first_name']}")
             elif choix == "5" and self.current_tournament:
                 self.enter_results(self.current_tournament)
             elif choix == "6":
